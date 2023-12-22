@@ -21,7 +21,7 @@ def main():
     plt.rcParams["font.sans-serif"] = "SimSun"
     font_manager.fontManager.addfont('simsun.ttc')  # 临时注册新的全局字体
 
-    plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+    plt.rcParams['font.sans-serif'] = ['simsun']  # 用来正常显示中文标签
 
     plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 
