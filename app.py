@@ -19,7 +19,7 @@ def main():
     st.title("词语频率分析")
 
     plt.rcParams["font.sans-serif"] = "SimSun"
-    font_manager.fontManager.addfont('C:/Windows/Fonts/SimSun.ttc')  # 临时注册新的全局字体
+    font_manager.fontManager.addfont('SimSun.ttc')  # 临时注册新的全局字体
 
     plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
 
